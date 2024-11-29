@@ -1,0 +1,819 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Alegreya':
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/******************header*****/
+
+button:not(:disabled) {
+    background-color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: black;
+}
+
+header nav ul li a {
+    color: white !important;
+    margin: 0 2rem;
+    font-size: 1.8rem;
+}
+
+
+/********************************************/
+
+/***********hero******************/
+
+#hero {
+    background: linear-gradient(#000000 40%, #C8191C 223%);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    opacity: 0.1;
+    background-image: url(../image/Group\ \(2\).png);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-data {
+    text-align: center;
+}
+
+.hero-data h1 {
+    color: white;
+    text-align: center;
+    font-size: 13rem;
+    padding-top: 22rem;
+    font-weight: bold;
+}
+
+.hero-data h2 {
+    color: red;
+    font-size: 9rem;
+    font-weight: bold;
+}
+
+.hero-data p {
+    color: white;
+    font-size: 1.8rem;
+    max-width: 90rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.common-btn {
+    background-color: #c8191c;
+    margin-top: 3rem;
+    text-align: center;
+    border-radius: 0;
+    color: white;
+    font-size: 2.4rem;
+    display: inline-block;
+    width: 30rem;
+    display: block;
+
+}
+
+/**************************************/
+
+/***************about*****************/
+
+#about {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 40%, #C8191C 223%);
+}
+
+.data-loop {
+    justify-content: space-between;
+    row-gap: 2rem;
+}
+
+.mains-title {
+    color: red;
+    font-weight: bold;
+    padding-top: 1rem;
+    font-size: 2.4rem;
+    text-align: left;
+}
+
+
+.subs-title {
+    font-size: 6rem;
+    padding-bottom: 9rem;
+    color: white;
+    max-width: 48rem;
+}
+
+
+
+.data-loop h3 {
+    font-size: 5.4rem;
+    color: white;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.data-loop img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+
+.astr-data img {
+    height: 50rem;
+    border-right: 2px solid white;
+    padding-right: 11rem;
+    width: 100%;
+}
+
+.astr-data .ips-data {
+    font-size: 1.8rem;
+    padding-top: 11rem;
+    color: white;
+    max-width: 54rem;
+}
+
+.main-title {
+    color: red;
+    font-weight: bold;
+    padding-top: 1rem;
+    font-size: 2.4rem;
+
+}
+
+.discover {
+    padding-left: 5rem;
+}
+
+.sub-title {
+    font-size: 8rem;
+    padding-bottom: 9rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+.common-btns {
+    background-color: #c8191c;
+    margin-top: 3rem;
+    text-align: center;
+    border-radius: 0;
+    color: white;
+    font-size: 2.4rem;
+    display: inline-block;
+    width: 30rem;
+    display: block;
+
+}
+
+/**************************************/
+
+/***************super****************/
+
+#super {
+    background: linear-gradient(180deg, #000000 40%, #C8191C 223%);
+    padding-top: 20rem;
+}
+
+.super-data {
+    row-gap: 2rem;
+}
+
+.super-data h2 {
+    color: white;
+    font-size: 9rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.super-data p {
+    color: white;
+    font-size: 1.8rem;
+    /* max-width: 48.5rem; */
+    margin-top: 11rem;
+    text-align: left;
+}
+
+.super-team {
+    padding-left: 9.8rem;
+}
+
+
+.super-team img {
+    height: 300px;
+    width: 100%;
+}
+
+.super-data .bteam {
+    font-size: 12rem;
+    color: white;
+    font-weight: 700;
+    margin-top: 12rem;
+}
+
+/**************************************/
+
+/**************services*****************/
+#services {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 40%, #C8191C 223%);
+    text-align: center;
+}
+
+.service-data {
+    row-gap: 2rem;
+}
+
+.for-cast {
+    margin: 7.5rem;
+    border: 2px solid white;
+    padding: 3rem;
+}
+
+.for-cast img {
+    width: 100%;
+}
+
+.for-cast h2 {
+    font-size: 2rem;
+    color: white;
+    margin-top: 3rem;
+    text-align: left;
+}
+
+.for-cast p {
+    font-size: 1.8rem;
+    color: white;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+/**************************************/
+
+/**************why*****************/
+#why {
+    text-align: center;
+    background: linear-gradient(180deg, #000000 40%, #C8191C 223%);
+    padding-top: 20rem;
+}
+
+
+.why-data {
+    justify-content: space-between;
+    row-gap: 3rem;
+}
+
+.why-data img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.why-data h2 {
+    margin-top: 3rem;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.why-data p {
+    color: white;
+    margin-top: 2rem;
+}
+
+/**************************************/
+
+/***************horocope***************/
+#horoscope {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 40%, #C8191C 223%);
+    text-align: center;
+}
+
+
+
+.woman {
+    padding-left: 3rem;
+}
+
+.woman h2 {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 5rem;
+}
+
+.woman p {
+    color: white;
+    text-align: left;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    max-width: 16rem;
+}
+
+
+
+
+.virgo {
+    padding-left: 2rem;
+
+}
+
+.virgo h2 {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 5rem;
+}
+
+.virgo p {
+    text-align: left;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    max-width: 16rem;
+    color: white;
+}
+
+
+.horo-row1 {
+    display: flex;
+}
+
+.horo-row1 img {
+    width: 18rem;
+    height: 18rem;
+}
+
+.horo-row2 img {
+    width: 18rem;
+    height: 18rem;
+}
+
+
+.horo-row1 {
+    margin-right: auto;
+    row-gap: 4rem;
+}
+
+.horo-sec {
+    margin-top: 3rem;
+}
+
+.horo-row2 {
+    display: flex;
+    margin-left: auto;
+    row-gap: 4rem;
+}
+
+/**************************************/
+
+/**************partner******************/
+#partner {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 40%, #C8191C 223%);
+    text-align: center;
+}
+
+.part-data p {
+    color: red;
+    font-size: 3.2rem;
+}
+
+.part-data h2 {
+    margin-top: 2rem;
+    font-size: 10rem;
+    color: white;
+}
+
+.part-data {
+    padding-top: 20rem;
+}
+
+/**************************************/
+
+/*************meet***************/
+#meet {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 40%, #C8191C 223%);
+    padding-bottom: 20rem;
+}
+
+.meet-data {
+    justify-content: space-between;
+}
+
+.meet-data p {
+    color: red;
+    font-size: 2.4rem;
+}
+
+.meet-data h2 {
+    color: white;
+    font-size: 8rem;
+    max-width: 45rem;
+    line-height: 10rem;
+}
+
+
+.meet-data form p {
+    color: white;
+    font-size: 3rem;
+}
+
+
+.form-detail input {
+    padding: 1rem 4rem;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    background: transparent;
+    border: 2px solid white;
+    width: 96%;
+}
+
+.form-detail i {
+    color: white;
+    font-size: 2rem;
+}
+
+.form-detail {
+    row-gap: 2rem;
+}
+
+/**************************************/
+
+/*************membership****************/
+#membership {
+    padding-top: 20rem;
+    text-align: center;
+    background: linear-gradient(0deg, #000000 40%, #C8191C 223%);
+    position: relative;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+#membership::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../image/Wheel2\ 2.png);
+}
+
+
+#membership h2 {
+    font-size: 8.4rem;
+    color: white;
+}
+
+#membership p {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    max-width: 89rem;
+    margin: 0 auto;
+}
+
+/**************************************/
+
+/************mem-price*****************/
+#mem-price {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 40%, #C8191C 223%);
+    text-align: center;
+}
+
+.mem-data {
+    justify-content: space-between;
+    row-gap: 4rem;
+}
+
+.mem-data p {
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.mem-data h2 {
+    color: white;
+    font-size: 7rem;
+    text-align: left;
+}
+
+.lorem img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.lorem p {
+    color: white;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    display: block;
+}
+
+.mem-details {
+    margin: 0px 2rem;
+    padding: 3rem;
+    border: 2px solid white;
+    padding-bottom: 6rem;
+
+}
+
+.mem-details:hover {
+    background-color: red;
+}
+
+.mem-details:hover .commons-btn {
+    background-color: white;
+    color: red;
+}
+
+.mem-details h2 span {
+    font-size: 1.8rem;
+}
+
+
+.commons-btn {
+    background-color: #c8191c;
+    text-align: center;
+    border-radius: 0;
+    color: white;
+    font-size: 2.4rem;
+    display: inline-block;
+    width: 25rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    padding-top: 0.8rem;
+}
+
+.commons-btn:hover {
+    background-color: white;
+    color: red;
+}
+
+.lorem-data {
+    display: flex;
+    align-items: center;
+}
+
+.lorem-data span {
+    color: white;
+    font-size: 1.7rem;
+    padding-left: 0.6rem;
+}
+
+.lorem {
+    line-height: 5rem;
+}
+
+/**************************************/
+
+/************boodoo****************/
+
+#BOODOO {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 40%, #C8191C 223%);
+    text-align: center;
+}
+
+.imges img {
+    margin: 0 auto;
+    height: 32rem;
+}
+
+.headingud {
+    height: 14rem;
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+}
+
+
+.swiper-data {
+    margin: 15rem 5rem 0 5rem;
+}
+
+.swiper-data img {
+    height: 100%;
+    width: 100%;
+}
+
+.boodoo-slider .swiper-button-prev,
+.boodoo-slider .swiper-button-next {
+    color: white;
+    height: 1rem;
+    width: 2rem;
+}
+
+.swiper-details {
+    color: white;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.swiper-details p {
+    font-size: 1.8rem;
+    text-align: left;
+    margin-top: 9rem;
+
+}
+
+
+.swiper-details h2 {
+    float: left;
+
+}
+
+.swiper-slider {
+    position: relative;
+}
+
+.swiper-details img {
+    height: 8rem;
+    width: 9rem;
+    margin-top: 6rem;
+}
+
+.swiper-details::before {
+    background-image: url(../image/uyl.png);
+    height: 9rem;
+    width: 9rem;
+    z-index: 999;
+    content: "";
+    position: absolute;
+    inset: 0;
+    top: -4rem;
+    left: -1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.servicw-details::before {
+    color: white;
+    position: absolute;
+}
+
+/**************************************/
+
+
+/*************blog********************/
+
+
+#blog {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 40%, #C8191C 223%);
+    text-align: center;
+
+}
+
+.blog-data {
+    row-gap: 3rem;
+}
+
+.blog-data img {
+    height: 40rem;
+    justify-content: center;
+}
+
+.blog-detail h2 {
+    color: white;
+    text-align: left;
+    font-size: 2.4rem;
+    padding-top: 6rem;
+    max-width: 29rem;
+}
+
+.blog-detail p {
+    color: white;
+    font-size: 1.8rem;
+    text-align: left;
+    padding-top: 2rem;
+    max-width: 36rem;
+
+}
+
+.blog-details {
+    margin: 0 3rem 0 3rem;
+}
+
+/**************************************/
+
+/************services***************/
+footer {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 40%, #C8191C 223%);
+
+}
+
+.service-data {
+    justify-content: space-between;
+}
+
+.service-data img {
+    padding-left: 1rem;
+}
+.service-data p {
+    font-size: 1.8rem;
+    color: white;
+    text-align: left;
+}
+
+.service-details h2 {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.service-details ul li {
+    display: block;
+}
+
+.service-details a {
+    text-align: left;
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    font-weight: lighter;
+    margin-top: 2rem;
+}
+
+.maps {
+    color: white;
+}
+
+
+.headingud {
+    width: 10rem;
+    color: white;
+    height: 1px;
+}
+
+.service-data .link {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+/**************************************/
+hr {
+    background-color: white;
+    width: 6rem;
+    margin: 0 auto;
+    border: none;
+    height: 0.2rem;
+    border: none;
+}
+
+.horo-first {
+    row-gap: 3rem;
+}
+
+.horo-sec {
+    row-gap: 3rem;
+}
+
+
+
+/* #about, #super, #services, #why, #horoscope, #meet, #membership, #mem-price, #BOODOO, #blog
+.sub-title {
+    font-size: 5rem;
+} */
