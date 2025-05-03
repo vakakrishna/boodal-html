@@ -241,6 +241,7 @@ header nav ul li a {
 .super-team img {
     height: 300px;
     width: 100%;
+    object-fit: cover;
 }
 
 .super-data .bteam {
